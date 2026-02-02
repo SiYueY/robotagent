@@ -1,6 +1,7 @@
 from typing import Any, Literal
 
-from langchain.chat_models import init_chat_model, BaseChatModel
+from langchain.chat_models import init_chat_model
+from langchain.caht_models import BaseChatModel as ChatModel
 
 
 def create_chat_model(
@@ -9,7 +10,7 @@ def create_chat_model(
         configurable_fields: Literal["any"] | list[str] | tuple[str, ...] | None = None,
         config_prefix: str | None = None,
         **kwargs: Any,
-) -> BaseChatModel:
+) -> ChatModel:
     return init_chat_model(
         model=model,
         model_provider=model_provider,

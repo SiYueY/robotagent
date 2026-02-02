@@ -1,11 +1,12 @@
 [project]
 name = "robotagent"
 version = "0.1.0"
-description = "Add your description here"
+description = "Robot Agent"
 requires-python = ">=3.12"
 dependencies = [
     "langchain>=1.2.7",
     "langchain-community>=0.4.1",
+    "langchain-milvus>=0.3.3",
     "langgraph>=1.0.7",
 ]
 
