@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deepagent Integration"
+  short_description: "Define memory, skills, and subagents for deepagents"
+  default_prompt: "Create or update Deepagent wiring (memory/skills/subagents) for this repo."

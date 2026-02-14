@@ -1,0 +1,4 @@
+interface:
+  display_name: "Robot Perception"
+  short_description: "Maintain perception subagent"
+  default_prompt: "Update the robot perception subagent skill."

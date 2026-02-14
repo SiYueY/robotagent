@@ -1,0 +1,33 @@
+version: 1
+root: robotagent/prompts
+prompts:
+  deepagent:
+    langfuse:
+      name: deepagent
+      label: production
+      type: text
+    prompt: deepagent/prompt.md
+  control:
+    langfuse:
+      name: control
+      label: production
+      type: text
+    prompt: control/prompt.md
+  intent:
+    langfuse:
+      name: intent
+      label: production
+      type: text
+    prompt: intent/prompt.md
+  perception:
+    langfuse:
+      name: perception
+      label: production
+      type: text
+    prompt: perception/prompt.md
+  execution:
+    langfuse:
+      name: execution
+      label: production
+      type: text
+    prompt: execution/prompt.md

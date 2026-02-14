@@ -1,0 +1,4 @@
+interface:
+  display_name: "Robot Control Agent"
+  short_description: "Build intent/perception/execution subagents"
+  default_prompt: "Update RobotAgent and its intent, perception, execution subagents."

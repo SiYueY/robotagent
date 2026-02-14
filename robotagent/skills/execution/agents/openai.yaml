@@ -1,0 +1,4 @@
+interface:
+  display_name: "Robot Execution"
+  short_description: "Maintain execution planning subagent"
+  default_prompt: "Update the robot execution subagent skill."

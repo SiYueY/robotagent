@@ -1,0 +1,4 @@
+interface:
+  display_name: "Robot Intent"
+  short_description: "Maintain intent recognition subagent"
+  default_prompt: "Update the robot intent subagent skill."
